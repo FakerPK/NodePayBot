@@ -16,7 +16,7 @@ DOMAIN_API = {
 MAX_WORKERS = 1000  # Number of concurrent workers
 
 # Globals
-token_info = "   "
+token_info = "NP_TOKEN"
 account_info = None
 
 # Set up logging
