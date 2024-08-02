@@ -4,14 +4,14 @@ import uuid
 import random
 
 # Constants
-PING_INTERVAL = 30  # Ping every 60 seconds
+PING_INTERVAL = 30  
 DOMAIN_API = {
     "SESSION": "https://api.nodepay.ai/api/auth/session",
     "PING": "https://nw2.nodepay.ai/api/network/ping",
 }
 
 # Globals
-token_info = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMjU5NTY2MTA0NjU3Nzg4OTI4IiwiaWF0IjoxNzIwNDM5MTE2LCJleHAiOjE3MjE2NDg3MTZ9.J1pbcH6gJ61go9FEPLAl6bzSG9OqFoxk3R1c_ZylkOA4pm1FuxN6mT1MIE2LUAhxE36t-c7NE3O1ish41RO4KA"
+token_info = "NP_TOKEN"
 account_info = None
 retries = 0
 
